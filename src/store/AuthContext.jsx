@@ -33,7 +33,7 @@ const AuthProvider = ({children}) => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
     const [loading, setLoading] = useState(true);
 
-    const BASE_URL = 'https://jobportalbackend-3-3anx.onrender.com/api/v1';
+    const BASE_URL = 'http://localhost:8080/api/v1';
 
     // 1. Made setAuthToken synchronous and handled removal
     const setAuthToken = (tokenValue) => {
