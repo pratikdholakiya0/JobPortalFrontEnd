@@ -12,7 +12,7 @@ const AuthContext = createContext({
     token: null,
     isAuthenticated: false,
     loading: true,
-    BASE_URL: 'http://192.168.30.1:8080/api/v1',
+    BASE_URL: 'http://localhost:8080/api/v1',
     setAuthToken: () => {},
     logout: () => {},
     login: async () => ({}),
