@@ -19,7 +19,7 @@ const Login = () => {
                 password: password
             });
 
-            navigate("/profile");
+            navigate("/user-profile");
 
         } catch (error) {
             console.error("Login Error:", error.message);
