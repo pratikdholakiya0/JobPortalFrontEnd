@@ -5,7 +5,7 @@ import axios from 'axios';
 import { Loader2, Send, ArrowLeft } from 'lucide-react'; 
 import { useAuth } from '../store/AuthContext'; 
 
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://jobportalbackend-z91i.onrender.com';
 const WEBSOCKET_ENDPOINT = '/chat';
 const MESSAGES_PER_PAGE = 20;
 
